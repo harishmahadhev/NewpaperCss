@@ -1,0 +1,128 @@
+section {
+    margin: 40px 80px;
+}
+
+.row.pg-no {
+    padding-bottom: 10px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.row.hr {
+    margin-left: 1px;
+    margin-right: 1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 0;
+    /* margin-bottom: 0px; */
+}
+
+.row.bold-head {
+    /* position: relative; */
+    bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 8vw;
+}
+
+.col-4 {
+    text-align: justify;
+}
+
+.col-4 p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.col-4 h3 {
+    font-size: 20px;
+}
+
+.banner {
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 700;
+    color: white;
+    padding: 3px 3px 0 0;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 30px;
+    clip-path: polygon(0 0, 95% 0%, 100% 100%, 0 100%);
+    background-color: brown;
+}
+
+.sec-1 .col-8 {
+    background-color: grey;
+    /* width: 00px; */
+    height: 400px;
+    text-align: justify;
+}
+
+.image {
+    position: relative;
+    background-color: grey;
+    height: 150px;
+    margin: 10px 0;
+}
+
+.img-row .banner {
+    position: absolute;
+    top: 0;
+}
+
+.img-row .col-4 {
+    padding: 15px 15px 0 0;
+    margin: 30px 0px;
+}
+
+.img-row {
+    justify-content: space-evenly;
+    height: 700px;
+}
+
+.image .pg {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 50%;
+}
+
+.fact {
+    border-top: 2px solid brown;
+    padding: 5px 0 0 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer {
+    border-top: 1px solid black;
+}
+
+.footer .col-6 {
+    padding: 2px 0;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: oblique;
+}
